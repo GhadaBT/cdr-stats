@@ -17,9 +17,10 @@ from common.utils import Choice
 
 
 class PERIOD(Choice):
-    DAY = 1, _('Day')
-    WEEK = 2, _('Week')
-    MONTH = 3, _('Month')
+    HOUR = 1, _('Hour')
+    DAY = 2, _('Day')
+    WEEK = 3, _('Week')
+    MONTH = 4, _('Month')
 
 
 class STATUS(Choice):
